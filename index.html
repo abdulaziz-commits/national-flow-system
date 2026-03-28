@@ -14,22 +14,26 @@
         <p class="subtitle">Oman Vision 2040 – Flow-Based National Operating Model</p>
       </div>
       <div class="badge">Prepared in alignment with Oman Vision 2040</div>
-    </header>
-<header class="header">
-  <div>
-    <h1 class="title">National Flow Dashboard</h1>
-    <p class="subtitle">Oman Vision 2040 – Flow-Based National Operating Model</p>
-  </div>
-  <div class="badge">Prepared in alignment with Oman Vision 2040</div>
 
-  <nav class="navbar">
-  <a href="index.html" class="nav-link active">Dashboard</a>
-  <a href="model.html" class="nav-link">Model</a>
-  <a href="flows.html" class="nav-link">Flows</a>
-  <a href="plan.html" class="nav-link">Plan</a>
-  <a href="executive.html" class="nav-link">Executive</a>
-</nav>
-</header>
+      <nav class="navbar">
+        <a href="index.html" class="nav-link active">Dashboard</a>
+        <a href="model.html" class="nav-link">Model</a>
+        <a href="flows.html" class="nav-link">Flows</a>
+        <a href="plan.html" class="nav-link">Plan</a>
+        <a href="executive.html" class="nav-link">Executive</a>
+      </nav>
+    </header>
+
+    <section class="panel">
+      <h2>Quick Access</h2>
+      <div class="action-buttons">
+        <a href="model.html" class="action-btn">Open Model</a>
+        <a href="flows.html" class="action-btn secondary">Open Flows</a>
+        <a href="plan.html" class="action-btn secondary">Open Plan</a>
+        <a href="executive.html" class="action-btn">Open Executive View</a>
+      </div>
+    </section>
+
     <section class="panel">
       <h2>Executive Summary</h2>
       <div class="metrics-grid">
@@ -55,6 +59,16 @@
         <span><i class="dot yellow-bg"></i> SF = 1 Critical</span>
         <span><i class="dot red-bg"></i> SF &lt; 1 Bottleneck</span>
       </div>
+    </section>
+
+    <section class="panel">
+      <h2>Decision Focus</h2>
+      <ul style="line-height:1.9; color:#dce8ff; font-size:18px; margin:0; padding-left:20px;">
+        <li>Material flow is the current primary bottleneck.</li>
+        <li>Governance delay is weakening human flow execution.</li>
+        <li>Program B requires immediate intervention.</li>
+      </ul>
+      <p class="panel-note">Priority is determined by flow efficiency imbalance.</p>
     </section>
 
     <div class="two-col">
@@ -110,45 +124,30 @@
           </thead>
           <tbody>
             <tr>
-              <tr>
-  <td>
-    <a href="flows.html#material" class="flow-link">Material</a>
-  </td>
-  <td class="red">0.80</td>
-  <td class="red">Bottleneck</td>
-</tr>
-
-<tr>
-  <td>
-    <a href="flows.html#energy" class="flow-link">Energy</a>
-  </td>
-  <td class="green">1.10</td>
-  <td class="green">Stable</td>
-</tr>
-
-<tr>
-  <td>
-    <a href="flows.html#human" class="flow-link">Human</a>
-  </td>
-  <td class="yellow">0.95</td>
-  <td class="yellow">Pressure</td>
-</tr>
-
-<tr>
-  <td>
-    <a href="flows.html#knowledge" class="flow-link">Knowledge</a>
-  </td>
-  <td class="green">1.20</td>
-  <td class="green">Strong</td>
-</tr>
-
-<tr>
-  <td>
-    <a href="flows.html#financial" class="flow-link">Financial</a>
-  </td>
-  <td class="yellow">1.00</td>
-  <td class="yellow">Critical</td>
-</tr>
+              <td><a href="flows.html#material" class="flow-link">Material</a></td>
+              <td class="red">0.80</td>
+              <td class="red">Bottleneck</td>
+            </tr>
+            <tr>
+              <td><a href="flows.html#energy" class="flow-link">Energy</a></td>
+              <td class="green">1.10</td>
+              <td class="green">Stable</td>
+            </tr>
+            <tr>
+              <td><a href="flows.html#human" class="flow-link">Human</a></td>
+              <td class="yellow">0.95</td>
+              <td class="yellow">Pressure</td>
+            </tr>
+            <tr>
+              <td><a href="flows.html#knowledge" class="flow-link">Knowledge</a></td>
+              <td class="green">1.20</td>
+              <td class="green">Strong</td>
+            </tr>
+            <tr>
+              <td><a href="flows.html#financial" class="flow-link">Financial</a></td>
+              <td class="yellow">1.00</td>
+              <td class="yellow">Critical</td>
+            </tr>
           </tbody>
         </table>
       </section>
@@ -206,37 +205,31 @@
         <table>
           <thead>
             <tr>
-  <td>Logistics</td>
-  <td class="red">Material</td>
-  <td>Transport delay</td>
-  <td>
-    <a href="flows.html#material" class="action-link red">
-      Fix Material Flow
-    </a>
-  </td>
-</tr>
-
-<tr>
-  <td>Governance</td>
-  <td class="red">Human</td>
-  <td>Decision lag</td>
-  <td>
-    <a href="flows.html#human" class="action-link yellow">
-      Improve Human Flow
-    </a>
-  </td>
-</tr>
-
-<tr>
-  <td>Economy</td>
-  <td class="red">Financial</td>
-  <td>Allocation pressure</td>
-  <td>
-    <a href="flows.html#financial" class="action-link yellow">
-      Stabilize Financial Flow
-    </a>
-  </td>
-</tr>
+              <th>Location</th>
+              <th>Type</th>
+              <th>Cause</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Logistics</td>
+              <td class="red">Material</td>
+              <td>Transport delay</td>
+              <td><a href="flows.html#material" class="action-link red">Fix Material Flow</a></td>
+            </tr>
+            <tr>
+              <td>Governance</td>
+              <td class="red">Human</td>
+              <td>Decision lag</td>
+              <td><a href="flows.html#human" class="action-link yellow">Improve Human Flow</a></td>
+            </tr>
+            <tr>
+              <td>Economy</td>
+              <td class="red">Financial</td>
+              <td>Allocation pressure</td>
+              <td><a href="flows.html#financial" class="action-link yellow">Stabilize Financial Flow</a></td>
+            </tr>
           </tbody>
         </table>
       </section>
