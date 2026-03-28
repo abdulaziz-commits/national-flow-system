@@ -210,3 +210,95 @@ th {
     white-space: normal;
   }
 }
+
+/* ===== MODEL PAGE STYLES ===== */
+
+.nested-model {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.layer {
+  border: 2px solid rgba(255,255,255,0.15);
+  border-radius: 18px;
+  padding: 24px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.environment {
+  background: linear-gradient(180deg, #8fc48c, #6fa56d);
+  color: #071120;
+  width: 100%;
+  max-width: 950px;
+}
+
+.governance {
+  background: #d9d9d9;
+  color: #071120;
+  margin-top: 18px;
+}
+
+.people {
+  background: #f3e8b3;
+  color: #071120;
+  margin-top: 18px;
+}
+
+.economy {
+  background: #e7d27f;
+  color: #071120;
+  margin-top: 18px;
+}
+
+.ops-bar {
+  background: linear-gradient(180deg, #2b78b9, #1e5f95);
+  border: 1px solid #3f8ccc;
+  border-radius: 14px;
+  padding: 18px;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.flow-band {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+}
+
+.flow-item {
+  background: #d7e6f7;
+  color: #071120;
+  border: 1px solid #9fbad8;
+  border-radius: 14px;
+  padding: 18px 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sf-box {
+  max-width: 420px;
+  margin: 0 auto;
+  background: #f4f4f4;
+  color: #071120;
+  border: 1px solid #cfcfcf;
+  border-radius: 16px;
+  padding: 22px;
+  text-align: center;
+}
+
+.sf-formula {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.sf-text {
+  font-size: 18px;
+  color: #333;
+}
