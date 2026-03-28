@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Executive View</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1 class="title">Executive View</h1>
+        <p class="subtitle">النسخة التنفيذية المختصرة للقيادات</p>
+      </div>
+      <div class="badge">Decision View</div>
 
+      <nav class="navbar">
+        <a href="index.html" class="nav-link">Dashboard</a>
+        <a href="model.html" class="nav-link">Model</a>
+        <a href="executive.html" class="nav-link active">Executive</a>
+      </nav>
+    </header>
+
+    <section class="panel">
+      <h2>Top National Status</h2>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-label">Overall SF</span>
+          <span class="metric-value green">1.05</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">System Status</span>
+          <span class="metric-value green">Stable</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Urgent Bottlenecks</span>
+          <span class="metric-value red">2</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Trend</span>
+          <span class="metric-value green">Improving ↑</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Immediate Bottlenecks</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Location</th>
+            <th>Type</th>
+            <th>Cause</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Logistics</td>
+            <td class="red">Material</td>
+            <td>Transport delay</td>
+            <td class="red">Immediate intervention</td>
+          </tr>
+          <tr>
+            <td>Governance</td>
+            <td class="red">Human</td>
+            <td>Decision lag</td>
+            <td class="yellow">Accelerate approvals</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="panel">
+      <h2>Executive Actions</h2>
+      <ul style="line-height:1.9; color:#dce8ff; font-size:18px; margin:0; padding-left:20px;">
+        <li>Increase material flow capacity across logistics nodes.</li>
+        <li>Reduce governance delay in high-priority approvals.</li>
+        <li>Monitor Human and Financial flows weekly.</li>
+        <li>Preserve system stability while addressing bottlenecks.</li>
+      </ul>
+      <p class="panel-note">Decisions are driven by flow efficiency.</p>
+    </section>
+  </div>
+</body>
+</html>
