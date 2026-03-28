@@ -388,3 +388,22 @@ th {
 .flow-list li {
   margin-bottom: 6px;
 }
+
+/* ===== ACTION LINKS ===== */
+
+.action-link {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.action-link.red {
+  color: #ff6b6b;
+}
+
+.action-link.yellow {
+  color: #f2c94c;
+}
+
+.action-link:hover {
+  text-decoration: underline;
+}
