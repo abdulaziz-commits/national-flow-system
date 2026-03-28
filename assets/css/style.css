@@ -314,11 +314,10 @@ th {
 .nav-link {
   text-decoration: none;
   color: #dce8ff;
-  background: #10213b;
-  border: 1px solid #284162;
-  padding: 10px 16px;
-  border-radius: 10px;
-  font-size: 16px;
+  background: transparent;
+  padding: 8px 14px;
+  border-radius: 8px;
+  font-size: 14px;
   transition: 0.2s ease;
 }
 
@@ -328,7 +327,6 @@ th {
 
 .nav-link.active {
   background: #2b78b9;
-  border-color: #3f8ccc;
   color: #ffffff;
 }
 
