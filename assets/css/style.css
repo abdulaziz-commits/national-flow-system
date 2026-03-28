@@ -368,3 +368,24 @@ th {
 .action-btn.secondary:hover {
   background: #173055;
 }
+
+/* ===== FLOWS PAGE STYLES ===== */
+
+.flow-desc {
+  color: #dce8ff;
+  font-size: 18px;
+  line-height: 1.7;
+  margin: 0 0 12px;
+}
+
+.flow-list {
+  margin: 0;
+  padding-left: 20px;
+  color: #c9d6ec;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.flow-list li {
+  margin-bottom: 6px;
+}
