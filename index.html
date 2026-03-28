@@ -1,1 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>National Flow Dashboard</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1 class="title">National Flow Dashboard</h1>
+        <p class="subtitle">Oman Vision 2040 – Flow-Based National Operating Model</p>
+      </div>
+      <div class="badge">Prepared in alignment with Oman Vision 2040</div>
+    </header>
 
+    <section class="panel">
+      <h2>Executive Summary</h2>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-label">Overall SF</span>
+          <span class="metric-value green">1.05</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">System Status</span>
+          <span class="metric-value green">Stable</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Critical Bottlenecks</span>
+          <span class="metric-value red">2</span>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Trend</span>
+          <span class="metric-value green">Improving ↑</span>
+        </div>
+      </div>
+      <div class="legend">
+        <span><i class="dot green-bg"></i> SF &gt; 1 Stable</span>
+        <span><i class="dot yellow-bg"></i> SF = 1 Critical</span>
+        <span><i class="dot red-bg"></i> SF &lt; 1 Bottleneck</span>
+      </div>
+    </section>
+
+    <div class="two-col">
+      <section class="panel">
+        <h2>Vision Layers</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Layer</th>
+              <th>Role</th>
+              <th>SF</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Environment</td>
+              <td>Contains assets</td>
+              <td class="green">1.10</td>
+              <td class="green">Stable</td>
+            </tr>
+            <tr>
+              <td>Governance</td>
+              <td>Regulates flows</td>
+              <td class="red">0.90</td>
+              <td class="red">Pressure</td>
+            </tr>
+            <tr>
+              <td>People &amp; Society</td>
+              <td>Operate the system</td>
+              <td class="yellow">1.00</td>
+              <td class="yellow">Critical</td>
+            </tr>
+            <tr>
+              <td>Economy &amp; Development</td>
+              <td>Produces value</td>
+              <td class="green">1.20</td>
+              <td class="green">Strong</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>Flow Types</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Flow</th>
+              <th>SF</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Material</td>
+              <td class="red">0.80</td>
+              <td class="red">Bottleneck</td>
+            </tr>
+            <tr>
+              <td>Energy</td>
+              <td class="green">1.10</td>
+              <td class="green">Stable</td>
+            </tr>
+            <tr>
+              <td>Human</td>
+              <td class="yellow">0.95</td>
+              <td class="yellow">Pressure</td>
+            </tr>
+            <tr>
+              <td>Knowledge</td>
+              <td class="green">1.20</td>
+              <td class="green">Strong</td>
+            </tr>
+            <tr>
+              <td>Financial</td>
+              <td class="yellow">1.00</td>
+              <td class="yellow">Critical</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <div class="two-col">
+      <section class="panel">
+        <h2>Five-Year Plan Programs</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Program</th>
+              <th>Capacity</th>
+              <th>Demand</th>
+              <th>SF</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Program A</td>
+              <td>120</td>
+              <td>100</td>
+              <td class="green">1.20</td>
+              <td class="green">Expand</td>
+            </tr>
+            <tr>
+              <td>Program B</td>
+              <td>70</td>
+              <td>100</td>
+              <td class="red">0.70</td>
+              <td class="red">Immediate Action</td>
+            </tr>
+            <tr>
+              <td>Program C</td>
+              <td>100</td>
+              <td>100</td>
+              <td class="yellow">1.00</td>
+              <td class="yellow">Monitor</td>
+            </tr>
+            <tr>
+              <td>Program D</td>
+              <td>110</td>
+              <td>90</td>
+              <td class="green">1.22</td>
+              <td class="green">Stable</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="panel-note">Plans move the system, but flow efficiency determines success.</p>
+      </section>
+
+      <section class="panel">
+        <h2>Critical Bottlenecks</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Location</th>
+              <th>Type</th>
+              <th>Cause</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Logistics</td>
+              <td class="red">Material</td>
+              <td class="red">Transport delay</td>
+            </tr>
+            <tr>
+              <td>Governance</td>
+              <td class="red">Human</td>
+              <td class="red">Decision lag</td>
+            </tr>
+            <tr>
+              <td>Economy</td>
+              <td class="red">Financial</td>
+              <td class="red">Allocation pressure</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <section class="panel">
+      <h2>Operating Logic</h2>
+      <div class="logic-grid">
+        <div class="logic-card">
+          <h3>Environment</h3>
+          <p>The geographical container of all assets.</p>
+        </div>
+        <div class="logic-arrow">→</div>
+        <div class="logic-card">
+          <h3>Assets</h3>
+          <p>Operational nodes within the environment.</p>
+        </div>
+        <div class="logic-arrow">→</div>
+        <div class="logic-card">
+          <h3>Flow Operating System</h3>
+          <p>Enables, manages, and synchronizes flows across assets.</p>
+          <p class="sf-note">SF = Capacity / Demand</p>
+        </div>
+      </div>
+      <p class="panel-note">Flows move across assets within the environment, enabled by a unified operating system.</p>
+    </section>
+  </div>
+</body>
+</html>
