@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flow Types</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1 class="title">Flow Types</h1>
+        <p class="subtitle">التدفقات الأساسية في النظام الوطني القائم على التدفق</p>
+      </div>
+      <div class="badge">Flow View</div>
+
+      <nav class="navbar">
+        <a href="index.html" class="nav-link">Dashboard</a>
+        <a href="model.html" class="nav-link">Model</a>
+        <a href="flows.html" class="nav-link active">Flows</a>
+        <a href="executive.html" class="nav-link">Executive</a>
+      </nav>
+    </header>
+
+    <section class="panel">
+      <h2>Core Flow Logic</h2>
+      <p class="panel-note">
+        Flows move across assets within the environment, enabled by the Flow Operating System.
+      </p>
+    </section>
+
+    <div class="two-col">
+      <section class="panel">
+        <h2>Material Flow | التدفق المادي</h2>
+        <p class="flow-desc">Moves physical inputs, goods, and outputs across productive and logistic assets.</p>
+        <ul class="flow-list">
+          <li>Moves through: factories, roads, ports, supply chains</li>
+          <li>Main risk: transport bottlenecks</li>
+          <li>SF reading: compares physical capacity vs physical demand</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>Energy Flow | التدفق الطاقي</h2>
+        <p class="flow-desc">Moves power, fuel, and usable energy across national systems.</p>
+        <ul class="flow-list">
+          <li>Moves through: grids, fuel systems, energy networks</li>
+          <li>Main risk: interruption of supply</li>
+          <li>SF reading: energy availability vs system demand</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="two-col">
+      <section class="panel">
+        <h2>Human Flow | التدفق البشري</h2>
+        <p class="flow-desc">Represents the movement of people, labor, skills, and operating capacity.</p>
+        <ul class="flow-list">
+          <li>Moves through: institutions, workplaces, mobility systems</li>
+          <li>Main risk: decision delay, skills mismatch, access limits</li>
+          <li>SF reading: human capacity vs operational demand</li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <h2>Knowledge Flow | التدفق المعرفي</h2>
+        <p class="flow-desc">Moves data, insight, expertise, instructions, and innovation across the system.</p>
+        <ul class="flow-list">
+          <li>Moves through: digital systems, governance channels, learning systems</li>
+          <li>Main risk: fragmentation, delay, weak transfer</li>
+          <li>SF reading: knowledge availability vs decision and execution demand</li>
+        </ul>
+      </section>
+    </div>
+
+    <section class="panel">
+      <h2>Financial Flow | التدفق المالي</h2>
+      <p class="flow-desc">Moves capital, funding, liquidity, and financial allocations across all assets and programs.</p>
+      <ul class="flow-list">
+        <li>Moves through: budgets, banks, allocation systems, investment channels</li>
+        <li>Main risk: allocation pressure, delayed liquidity, imbalance in funding</li>
+        <li>SF reading: financial capacity vs financial demand</li>
+      </ul>
+    </section>
+
+    <section class="panel">
+      <h2>Flow Efficiency Reading</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Flow</th>
+            <th>Example SF Reading</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Material</td>
+            <td class="red">0.80</td>
+            <td class="red">Bottleneck</td>
+          </tr>
+          <tr>
+            <td>Energy</td>
+            <td class="green">1.10</td>
+            <td class="green">Stable</td>
+          </tr>
+          <tr>
+            <td>Human</td>
+            <td class="yellow">0.95</td>
+            <td class="yellow">Pressure</td>
+          </tr>
+          <tr>
+            <td>Knowledge</td>
+            <td class="green">1.20</td>
+            <td class="green">Strong</td>
+          </tr>
+          <tr>
+            <td>Financial</td>
+            <td class="yellow">1.00</td>
+            <td class="yellow">Critical</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="panel-note">Each flow is measured by SF = Capacity / Demand.</p>
+    </section>
+  </div>
+</body>
+</html>
