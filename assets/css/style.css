@@ -302,3 +302,69 @@ th {
   font-size: 18px;
   color: #333;
 }
+
+/* ===== NAVBAR ===== */
+
+.navbar {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #dce8ff;
+  background: #10213b;
+  border: 1px solid #284162;
+  padding: 10px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+.nav-link:hover {
+  background: #173055;
+}
+
+.nav-link.active {
+  background: #2b78b9;
+  border-color: #3f8ccc;
+  color: #ffffff;
+}
+
+/* ===== ACTION BUTTONS ===== */
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #2b78b9;
+  color: #ffffff;
+  padding: 12px 18px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid #3f8ccc;
+  transition: 0.2s ease;
+}
+
+.action-btn:hover {
+  background: #1f639a;
+}
+
+.action-btn.secondary {
+  background: #10213b;
+  border: 1px solid #284162;
+  color: #dce8ff;
+}
+
+.action-btn.secondary:hover {
+  background: #173055;
+}
