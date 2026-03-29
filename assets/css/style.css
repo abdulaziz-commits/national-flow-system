@@ -504,3 +504,93 @@ tbody tr:hover {
     font-size: 24px;
   }
 }
+/* ===== LIFECYCLE DIAGRAM ===== */
+
+.lifecycle-diagram {
+  display: grid;
+  gap: 12px;
+  justify-items: center;
+  margin-top: 10px;
+}
+
+.life-box {
+  width: 100%;
+  max-width: 620px;
+  border-radius: 16px;
+  padding: 16px 18px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.16);
+}
+
+.life-box strong {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.life-box span {
+  display: block;
+  font-size: 15px;
+  color: #dce8ff;
+  line-height: 1.5;
+}
+
+.life-arrow {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--blue);
+  line-height: 1;
+}
+
+.return-arrow {
+  font-size: 34px;
+  color: var(--yellow);
+}
+
+.life-box.env {
+  background: linear-gradient(180deg, #7fbf7f, #5c9c5c);
+  color: #071120;
+}
+
+.life-box.gov {
+  background: linear-gradient(180deg, #d8d8d8, #c7c7c7);
+  color: #071120;
+}
+
+.life-box.people-box {
+  background: linear-gradient(180deg, #f5ebbc, #e7d899);
+  color: #071120;
+}
+
+.life-box.econ {
+  background: linear-gradient(180deg, #efd982, #dfc55f);
+  color: #071120;
+}
+
+.life-box.conv {
+  background: linear-gradient(180deg, #2f87c9, #21689c);
+  color: #ffffff;
+}
+
+.life-box.flow-out {
+  background: linear-gradient(180deg, #16365f, #10294b);
+  color: #ffffff;
+}
+
+.life-box.use {
+  background: linear-gradient(180deg, #284f7d, #1c3d63);
+  color: #ffffff;
+}
+
+.life-box.return {
+  background: linear-gradient(180deg, #4f86b7, #3c6f9f);
+  color: #ffffff;
+}
+
+.life-box.env span,
+.life-box.gov span,
+.life-box.people-box span,
+.life-box.econ span {
+  color: #10213b;
+}
