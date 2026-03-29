@@ -594,3 +594,46 @@ tbody tr:hover {
 .life-box.econ span {
   color: #10213b;
 }
+
+/* ===== CIRCULAR DIAGRAM ===== */
+
+.circle-diagram {
+  position: relative;
+  width: 360px;
+  height: 360px;
+  margin: 40px auto;
+}
+
+.circle {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 13px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.4;
+  font-weight: 700;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+}
+
+/* المركز */
+.circle.center {
+  top: 125px;
+  left: 125px;
+  width: 110px;
+  height: 110px;
+  background: linear-gradient(180deg, #16365f, #10294b);
+  color: white;
+}
+
+/* توزيع دائري */
+.c1 { top: 0; left: 125px; background: #7fbf7f; color:#071120;}
+.c2 { top: 60px; left: 250px; background: #e2e2e2; color:#071120;}
+.c3 { top: 200px; left: 250px; background: #f5ebbc; color:#071120;}
+.c4 { top: 260px; left: 125px; background: #efd982; color:#071120;}
+.c5 { top: 200px; left: 0; background: #2f87c9; color:white;}
+.c6 { top: 60px; left: 0; background: #284f7d; color:white;}
